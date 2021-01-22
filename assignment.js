@@ -19,9 +19,9 @@ function kilometerToMeter(kilometer){
     
 }
 
- var result = kilometerToMeter(22);  // input your tottal kilometer here
+ var result = kilometerToMeter(22);  // optional: input your tottal kilometer here
 
- console.log(result);
+ console.log(result);  //optional: totall metter is here
 
 //budgetCalculator conversation
 
@@ -111,7 +111,7 @@ function hotelCost(day) {
 
         return tottalCost;
     }
-    else  if(day>79 && day<89){
+    else  if(day>79 && day>89){
 
         var discout = 100 - (100*17/100);
 
@@ -125,9 +125,9 @@ function hotelCost(day) {
    
 }
 
- var netCost= hotelCost(44); //input your tottal hotel day
+ var netCost= hotelCost(120); // optional: input your tottal hotel day
 
- console.log(netCost);
+ console.log(netCost); // optional: tottal days cost is here
 
 
 //Mega Friend conversation with Js 
@@ -149,6 +149,6 @@ function megaFriend(friend){
     }
     var friends = ['sohan','imran','manik','abdullah','rakibul']; // input a arry here
 
-    var megaFriends = megaFriend(friends);
+    var megaFriends = megaFriend(friends); // optional: call function in a variable
     
-    console.log(megaFriends);
+    console.log(megaFriends);  // optional: megafriend is here
